@@ -4,4 +4,5 @@ d = { }
 d.update({"a": 1, "b": 2})
 d.update({"c":3 ,"d":4})
 d.update({"e":5,"f":6})
-print(d.pop("f"))
+d.pop("f")
+print(d)
