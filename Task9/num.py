@@ -1,8 +1,7 @@
 # Print numbers from 1 to 15 using while loop.
 
-n = 1
-while n >= 15:
+i = 1
 
-    n+=1
-print(n)
-
+while i <= 15:
+    print(i)
+    i+=1 
