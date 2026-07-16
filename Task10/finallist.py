@@ -6,6 +6,12 @@
  #Add " (multiple)" at the end of each
  #Return the final list
 
+num= []
+for i in range(1,51):
+    if (i %3 ==0 and i %5 == 0):
+       num.append(str(i) +" (multiple)")
+print(num)
 
+# another method
 result = [f"{num} (multiple)" for num in range(1,51) if(num %3 ==0 and num %5 == 0)]
 print(result)
