@@ -6,7 +6,7 @@
 # reserve(number)
 # Reservation allowed only if booked_seats + number does not exceed total seats.
 # After booking print Remaining seats.
-
+#class method
 class Bus_reservation:
     def __init__(self,bus_name,total_seats,booked_seats):
         self.bus_name=bus_name
@@ -23,7 +23,7 @@ class Bus_reservation:
             print(f"Remaining seats: {remaining_seats}")
         else:
             print(f"[Error] Cannot reserve {number} seats. Only {self.total_seats - self.booked_seats} seats left.")
-
+# class object(instance)
 bus = Bus_reservation("Zingbus",20,3)
 bus.display_details()
 bus.reserve_number(5)

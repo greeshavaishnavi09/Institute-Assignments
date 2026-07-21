@@ -1,0 +1,45 @@
+here decorator as @classmethod because it has to identify the class variable so class method is required.
+
+syntax = 
+
+class class_name: # employee as class
+        # class varaiable as all have one company name for employee
+        # constructor
+        def __init__(self,args,args):
+            self.variable=args
+            .
+            .
+        display intsance and class variables here    
+        display(self):
+        print(self.variable)
+        peint(class variable)
+
+
+ update or modify we need class method @classmethod
+ def method_class(cls):
+    # block of code       
+
+# object 
+emp = Employee("am123",12,"Data scientist",25000)
+emp.display_details()
+update.change_company_name("Microsoft")
+
+
+private variables needed for stop direct accessing of the instance variables 
+
+def __int__(self,ac_no,bal):
+    self.Account_number=ac_no
+        self.Balance = bal                 #public varaiable  here ans gives directly access to instance varaiable so that direct ans it give 
+bank =Bank(123456,10000)
+bank()
+
+def __int__(self,ac_no,bal):
+    self.__Account_number=ac_no           # .__ double underscore gives the private varable cant give direct ans from here
+        self.__Balance = bal              # ._ single underscore for protect the instance varaiables
+                                         # . dot for public variable direct access for data
+
+# accessing private variables
+def get_account_no(self):
+    print(Self.__Account_number)
+bank = Bank(1234,10000)
+bank.get_account_no()
