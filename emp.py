@@ -16,5 +16,5 @@ class Employee:
 
 emp = Employee(20000)
 emp.display_details()
-emp.set_salary(6000)
+emp.set_salary(600)
 emp.display_details()
