@@ -14,7 +14,7 @@ class Employee:
     def display_details(self):
         print(f"salary:{self.__salary}")      
 
-emp = Employee(20000)
+emp = Employee(50000)
 emp.display_details()
 emp.set_salary(600)
 emp.display_details()
