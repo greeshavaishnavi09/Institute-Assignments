@@ -71,4 +71,7 @@ class Biryani(Food):
 pizza = Pizza("Pizza",500)
 burger = Burger("Burger",200)
 birynai = Biryani("Biryani",700)
+
+pizza.display_all_details()
 birynai.display_all_details()
+burger.display_all_details()
