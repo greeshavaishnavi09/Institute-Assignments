@@ -1,5 +1,5 @@
 #  payments 
-from abc import ABC, abstractmethods
+from abc import ABC, abstractmethod
 
 class Payments(ABC):
     def __init__(self,owner,amount):
@@ -21,7 +21,7 @@ class Payments(ABC):
 
     #abstractmethods :
 
-    @abstractmethods
+    @abstractmethod
     def pay(self):
          pass
 
@@ -32,12 +32,18 @@ class Payments(ABC):
 
 # child class
 class Credit_card(Payments):
-     def __int__(self,owner,amount,credit_card_no):
-        super().__int__(owner,amount)
+     def __init__(self,owner,amount,credit_card_no):
+        super().__init__(owner,amount)
         self.__credit_card = credit_card_no
 
      def pay(self):
           print("credit card details:")
           print("credit card number:{self.__credit_card}")  
-          self.receipt()
+          self.recepit()
 
+credit = Credit_card("Greesha",500,345678)
+
+print(credit.get_owner_name())
+print(credit.get_amount())
+print(credit.recepit())
+print(credit.pay())
