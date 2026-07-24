@@ -7,7 +7,7 @@ class Employee:
     # Getter
     def get_name(self):
         return f"Employee Name : {self.__name}"
-
+    
     # Setter
     def set_name(self, name):
         self.__name = name
@@ -71,5 +71,4 @@ engineer = SoftwareEngineer("Greesha", "AI & ML", "Python")
 print(engineer.get_name())
 print(engineer.get_department())
 print(engineer.get_programming_skills())
-
 engineer.software_engineer_info()
