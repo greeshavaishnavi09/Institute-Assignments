@@ -67,5 +67,4 @@ print(dog.get_breed())
 
 dog.eat()
 dog.bark()
-
 dog.dog_info()
