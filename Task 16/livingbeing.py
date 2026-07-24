@@ -98,7 +98,7 @@ bird = Bird("Parrot", "Seeds", 2)
 print(bird.get_name())
 print(bird.get_food())
 print(bird.get_wings())
-
 bird.bird_info()
+
 # Polymorphism (Method Overriding)
 bird.action()
