@@ -100,6 +100,5 @@ print(bird.get_food())
 print(bird.get_wings())
 
 bird.bird_info()
-
 # Polymorphism (Method Overriding)
 bird.action()
