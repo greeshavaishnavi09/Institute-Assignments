@@ -62,5 +62,4 @@ manager = Manager(101, 80000, "AI & ML")
 print(manager.get_emp_id())
 print(manager.get_salary())
 print(manager.get_department())
-
 manager.manager_info()
