@@ -115,7 +115,6 @@ class Manager(Employee):
         print("Team Size :", self.team_size)
 
 
-
 d1 = Developer("Vaishnavi", 50000, "IT", "Python")
 d2 = Designer("Greesha", 45000, "Design", "chatgpt")
 d3 = Manager("Tejaswi", 70000, "HR", 12)
