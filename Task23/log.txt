@@ -1,0 +1,5 @@
+INFO Login Success
+ERROR Invalid Password
+INFO File Opened
+ERROR Database Error
+ERROR Network Error
